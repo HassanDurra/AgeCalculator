@@ -62,7 +62,7 @@ $(document).ready(function(){
                 }
            
                 ageContainer.show();
-                ageInput.val(months);
+                ageInput.val(months + " " + "Months" );
             }
             else{
                 var totalAge = years_months(dateOfBirthInput.val());
